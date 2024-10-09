@@ -5,6 +5,26 @@
 	--main-accent-dark: #4b8078;
 }
 
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	background-color: var(--main-light-color) !important;
+}
+
+a {
+	color: var(--main-accent-color) !important;
+}
+
+.active {
+	color: var(--main-accent-dark) !important;
+	text-decoration: none;
+}
+
+main {
+	flex: 1;
+}
+
 img {
 	height: 300px;
 }
