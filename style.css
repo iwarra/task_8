@@ -1,0 +1,14 @@
+:root {
+	--main-light-color: #fff8ee;
+	--main-accent-color: #00c9ae;
+	--main-dark-color: #b38452;
+	--main-accent-dark: #4b8078;
+}
+
+img {
+	height: 300px;
+}
+
+.logo {
+	height: 50px;
+}
