@@ -15,78 +15,115 @@
 			crossorigin="anonymous" />
 		<title>Kaffeparty</title>
 	</head>
-	<body>
-		<header>
-			<img
-				class="logo"
-				src="/logo.jpg"
-				alt="" />
-			<nav>
-				<a href="/index.html">Home</a>
-				<a href="/about.html">About us</a>
-				<a href="/products.html">Products</a>
-			</nav>
+	<body class="container">
+		<header class="row align-items-end">
+			<div class="col-auto">
+				<img
+					class="logo"
+					src="/logo.jpg"
+					alt="Logo"
+					style="width: 50px" />
+			</div>
+			<div class="col">
+				<nav class="d-flex justify-content-end">
+					<a
+						class="px-2"
+						href="/index.html"
+						>Home</a
+					>
+					<a
+						class="px-2"
+						href="/about.html"
+						>About us</a
+					>
+					<a
+						class="px-2"
+						href="/products.html"
+						>Products</a
+					>
+				</nav>
+			</div>
 		</header>
-		<main>
+
+		<main class="my-5">
 			<h1>Welcome to Kaffeparty</h1>
-			<section>
-				<h2>Who are we?</h2>
-				<img
-					src="/team.svg"
-					alt="" />
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eaque, sequi
-					incidunt tenetur numquam quidem doloribus dolor autem tempora nostrum? Laborum voluptates
-					ut aut odit rerum atque facilis quos officia. Lorem ipsum dolor sit amet consectetur
-					adipisicing elit. Eum, eos corporis. Natus error quaerat tenetur cum esse, dolore quo
-					explicabo magnam rem reprehenderit rerum temporibus quis reiciendis! Quo, quas rem. Lorem
-					ipsum dolor sit amet consectetur adipisicing elit. Impedit, aliquam. Lorem ipsum dolor sit
-					amet consectetur adipisicing elit. Exercitationem dignissimos ipsam repellendus tenetur.
-					Inventore alias ducimus ratione, iusto sed fuga tenetur, voluptate accusantium maxime
-					ipsam eos enim reprehenderit vel. Tenetur.
-				</p>
+			<section class="row my-5 align-items-center">
+				<div class="col-md-6 mb-4 d-flex justify-content-center">
+					<img
+						src="/team.svg"
+						alt="" />
+				</div>
+				<div class="col-md-6">
+					<h2>Who are we?</h2>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eaque, sequi
+						incidunt tenetur numquam quidem doloribus dolor autem tempora nostrum? Laborum
+						voluptates ut aut odit rerum atque facilis quos officia. Lorem ipsum dolor sit amet
+						consectetur adipisicing elit. Eum, eos corporis. Natus error quaerat tenetur cum esse,
+						dolore quo explicabo magnam rem reprehenderit rerum temporibus quis reiciendis! Quo,
+						quas rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, aliquam.
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dignissimos
+						ipsam repellendus tenetur. Inventore alias ducimus ratione, iusto sed fuga tenetur,
+						voluptate accusantium maxime ipsam eos enim reprehenderit vel. Tenetur.
+					</p>
+				</div>
 			</section>
-			<section>
-				<h2>What do we do?</h2>
-				<img
-					src="/who.svg"
-					alt="" />
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eaque, sequi
-					incidunt tenetur numquam quidem doloribus dolor autem tempora nostrum? Laborum voluptates
-					ut aut odit rerum atque facilis quos officia. Lorem ipsum dolor sit, amet consectetur
-					adipisicing elit. Ipsam, praesentium?
-				</p>
+			<section class="row my-5 align-items-center">
+				<div class="col-md-6 order-md-2 mb-4 d-flex justify-content-center">
+					<img
+						src="/who.svg"
+						alt="" />
+				</div>
+				<div class="col-md-6">
+					<h2>What do we do?</h2>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eaque, sequi
+						incidunt tenetur numquam quidem doloribus dolor autem tempora nostrum? Laborum
+						voluptates ut aut odit rerum atque facilis quos officia. Lorem ipsum dolor sit, amet
+						consectetur adipisicing elit. Ipsam, praesentium?
+					</p>
+				</div>
 			</section>
-			<section>
-				<h2>Why choose us?</h2>
-				<img
-					src="/why.svg"
-					alt="" />
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eaque, sequi
-					incidunt tenetur numquam quidem doloribus dolor autem tempora nostrum? Laborum voluptates
-					ut aut odit rerum atque facilis quos officia. Lorem ipsum dolor sit amet consectetur,
-					adipisicing elit. Labore eos quidem perferendis saepe. Facilis molestiae deserunt non. At
-					aliquam voluptatibus, omnis, voluptas mollitia ullam corrupti molestiae ratione totam
-					corporis id.
-				</p>
+			<section class="row my-5 align-items-center">
+				<div class="col-md-6 mb-4 d-flex justify-content-center">
+					<img
+					class="img-fluid w-75"
+						src="/why.svg"
+						alt="" />
+				</div>
+				<div class="col-md-6">
+					<h2>Why choose us?</h2>
+					<p></p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eaque, sequi
+						incidunt tenetur numquam quidem doloribus dolor autem tempora nostrum? Laborum
+						voluptates ut aut odit rerum atque facilis quos officia. Lorem ipsum dolor sit amet
+						consectetur, adipisicing elit. Labore eos quidem perferendis saepe. Facilis molestiae
+						deserunt non. At aliquam voluptatibus, omnis, voluptas mollitia ullam corrupti molestiae
+						ratione totam corporis id.
+					</p>
+				</div>
+				
 			</section>
-			<section>
-				<h2>Kaffeparty, this is how it works!</h2>
-				<img
-					src="/barista.svg"
-					alt="" />
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eaque, sequi
-					incidunt tenetur numquam quidem doloribus dolor autem tempora nostrum? Laborum voluptates
-					ut aut odit rerum atque facilis quos officia. Lorem ipsum dolor sit amet consectetur
-					adipisicing elit. Ea praesentium repellendus deserunt consequatur consequuntur, ab,
-					sapiente facilis beatae molestias excepturi modi aliquid, fugiat nobis voluptatem?
-				</p>
+			<section class="row my-5 align-items-center">
+				<div class="col-md-6 order-md-2 mb-4 d-flex justify-content-center">
+					<img
+						src="/barista.svg"
+						alt="" />
+				</div>
+				<div class="col-md-6">
+					<h2>Kaffeparty, this is how it works!</h2>
+					<p class="col"></p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eaque, sequi
+						incidunt tenetur numquam quidem doloribus dolor autem tempora nostrum? Laborum
+						voluptates ut aut odit rerum atque facilis quos officia. Lorem ipsum dolor sit amet
+						consectetur adipisicing elit. Ea praesentium repellendus deserunt consequatur
+						consequuntur, ab, sapiente facilis beatae molestias excepturi modi aliquid, fugiat nobis
+						voluptatem?
+					</p>
+				</div>
 			</section>
 		</main>
-		<footer>
+		<footer class="row">
 			<small>&copy; by Ivona, 2024</small>
 		</footer>
 		<script
