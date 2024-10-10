@@ -16,32 +16,52 @@
 		<title>Our Products</title>
 	</head>
 	<body class="container">
-		<header class="row align-items-end py-3">
-			<div class="col-auto">
-				<img
-					class="logo"
-					src="/images/logo.jpg"
-					alt="Logo"
-					style="width: 50px" />
-			</div>
-			<div class="col">
-				<nav class="d-flex justify-content-end">
-					<a
-						class="px-2"
-						href="/index.html"
-						>Home</a
-					>
-					<a
-						class="px-2"
-						href="/about.html"
-						>About us</a
-					>
-					<a
-						class="px-2 active"
-						href="/products.html"
-						aria-current="page"
-						>Products</a
-					>
+		<header class="navbar navbar-expand-lg navbar-light">
+			<div class="container-fluid">
+				<div class="navbar-brand">
+					<img
+						class="logo"
+						src="/images/logo.jpg"
+						alt="Logo"
+						style="width: 50px" />
+				</div>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<nav
+					class="collapse navbar-collapse"
+					id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item dropdown-item">
+							<a
+								class="nav-link text-end"
+								href="/index.html"
+								aria-current="page"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item dropdown-item">
+							<a
+								class="nav-link text-end"
+								href="/about.html"
+								>About us</a
+							>
+						</li>
+						<li class="nav-item dropdown-item">
+							<a
+								class="nav-link active text-end"
+								href="/products.html"
+								>Products</a
+							>
+						</li>
+					</ul>
 				</nav>
 			</div>
 		</header>
@@ -161,5 +181,9 @@
 			</section>
 		</main>
 		<footer class="row py-3"><small>&copy; by Ivona, 2024</small></footer>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"></script>
 	</body>
 </html>
